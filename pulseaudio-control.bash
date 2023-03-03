@@ -25,6 +25,11 @@ SINK_BLACKLIST=(
 # Maps PulseAudio sink names to human-readable names
 declare -A SINK_NICKNAMES
 SINK_NICKNAMES["alsa_output.usb-SomeManufacturer_SomeUsbSoundcard-00.analog-stereo"]="External Soundcard"
+SINK_NICKNAMES["bluez_sink.CC_98_8B_C1_DB_AD.a2dp_sink"]="WH-1000XM3"
+SINK_NICKNAMES["bluez_sink.14_3F_A6_DA_66_92.a2dp_sink"]="WH-1000XM3"
+SINK_NICKNAMES["auto_null"]="Dummy sink"
+SINK_NICKNAMES["alsa_output.pci-0000_00_1f.3.analog-stereo"]="Speakers"
+SINK_NICKNAMES["alsa_output.usb-Logitech_Logitech_USB_Headset-00.analog-stereo"]="Logitech headset"
 
 
 # Environment & global constants for the script
